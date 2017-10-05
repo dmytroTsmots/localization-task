@@ -1,0 +1,35 @@
+.lang {
+  display: none;
+}
+
+.lang.visible {
+  display: inline;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #346392;
+	flex-direction: column;
+	font-family: Georgia, sans-serif;
+  font-size: 20px;
+}
+#languages, #welcome-message, #save {
+	margin: 5px;
+}
+#save {
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  background: #346392;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#save:hover {
+  background: #1f7bb5;
+  text-decoration: none;
+}
